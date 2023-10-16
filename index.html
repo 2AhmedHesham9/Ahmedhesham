@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>DNA TO RNA</title>
+</head>
+<body >
+    <form action="">
+        
+      
+    </form>
+
+   
+<div class="form-container">
+    <div class="form">
+        <span class="heading">DNA TO RNA..</span>
+        <input  class="input" required type="text" id="dna" name="DNA" style="text-transform: uppercase;" onkeydown="return /[a-z]/i.test(event.key)" placeholder="ENTER DNA" >
+     
+     
+        <!-- <textarea placeholder="Say Hello" rows="10" cols="30" id="message" name="message" class="textarea"></textarea> -->
+        <div class="button-container">
+        <!-- <div class="send-button">Send</div> -->
+        <input type="button" value="Check DNA" onclick="check()" class="send-button" >
+        <div class="reset-button-container">
+            <input type="button" value="Convert DNA" onclick="convert()" class="reset-button" >
+            <!-- <div  class="reset-button" >Convert Dna</div> -->
+        </div>
+    </div>
+</div>
+</div>
+<!---->
+<div class="card" style="display:none;" id="card">
+    <div class="card-inner">
+        
+      <div class="card-front">
+        <p style="margin-top: -130px;text-decoration: underline;">DNA</p>
+        <p id="d" style="text-transform: uppercase;"></p>
+        <p></p>
+      </div>
+      <div class="card-back">
+        <p style="margin-top: -130px;text-decoration: underline;">RNA</p>
+        <p id="r" style="text-transform: uppercase;"></p>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
